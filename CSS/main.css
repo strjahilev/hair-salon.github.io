@@ -8,7 +8,7 @@
 .navbar-toggler{  background: #ffa7f5 !important;}
 
 .header{
-    background-image: url('https://vladimir.городскиеуслуги.рф/wp-content/uploads/2018/03/Krasivaya-pricheska.jpg');
+    background-image: url('../img/background.jpg');
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -52,6 +52,7 @@
     color: #4c124b;
     margin: 0em;
 }
+
 .about img{
     height: 100%;
     width: 100%;
@@ -60,20 +61,21 @@
 
 .about span{
     display: block;
-    color: #302f32;
+    color: #ef5fd0;
     position: absolute;
     left: 115px;
 }
 .about .desc{
     padding: 2em;
-    border-left:4px solid #58575a;
+    border-left:4px solid #4c124b;
 }
 .about .desc h3{
-    color: #58575a;
+    color: #ef5fd0;
 }
 .about .desc p{
     line-height:2;
-    color:#888;
+    color: #ffa7f5;
+    font-size: 1em;
 }
 /*Portfolio*/
 .portfolio{
@@ -93,7 +95,11 @@
 .portfolio img{
     height: 100%;
     width: 100%;
-
+    border: solid 2px #302f32;
+}
+.portfolio p{
+    font-weight: bold;
+    color: #302f32;
 }
 
 
@@ -103,13 +109,15 @@
 .blog{
     margin: 4em 0;
     position: relative;
+    background: #ffa7f5;
 }
 .blog h1{
     color: #4c124b;
-    margin: 2em;
+    /*margin: 2em;*/
+
 }
 .blog .card{
-    box-shadow: 0 0 20px #ccc;
+    box-shadow: 0 0 20px #ef5fd0;
 }
 .blog .card img{
     width: 100%;
@@ -140,6 +148,7 @@
     text-align: center;
     border-bottom-left-radius: 93%;
     transition:.3s ease-in-out;
+
 }
 .team .item:hover .des{
     height: 100%;
@@ -170,4 +179,10 @@
 .contact-form .right .form-control::placeholder{
     color: #58575a;
     font-size: 16px;
+}
+.footer{
+    padding-top: 2em;
+    padding-bottom: 2em;
+    background: #302f32;
+    color: #ef5fd0;
 }

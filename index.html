@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Title</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/main.css">
@@ -42,28 +42,29 @@
 </nav>
 
 <header class="header">
-    <div class="overlay"></div>
+    <div class="overlay" ></div>
     <div class="container">
         <div class="description text-center">
             <h1>    Добро пожаловать на сайт "Парикмахерской "Елена"
                 <p>    Создай свое настроение вместе с нами!
                 </p>
-                <button class="btn btn-outline-secondary btn-lg">Узнать больше
-                </button>
+<!--                <button class="btn btn-outline-secondary btn-lg">Узнать больше-->
+<!--                </button>-->
             </h1>
         </div>
     </div>
+
 </header>
 
 <div class="about" id="about">
     <div class="container">
         <h1 class="text-center">О нас</h1>
         <div class="row">
-            <div class="col-lg-4 col-md-4 col-sm-12 img-cont">
+            <div class="col-lg-4 col-md-9 col-sm-12 img-cont">
                 <img src="img/9.jpg" class="img-fluid">
-                <span class="text-justify">Елена Стряхилева, директор</span>
+                <span class="text-justify font-italic">Елена Стряхилева, директор</span>
             </div>
-            <div class="col-lg-8 col-md-8 col-sm-12 desc">
+            <div class="col-lg-8 col-md-12 col-sm-12 desc flex">
 
                  <h3>Парикмахерская "Елена"
                  </h3>
@@ -108,8 +109,8 @@
 <!-- Posts section -->
 <div class="blog" id="blog">
     <div class="container">
-        <h1 class="text-center">Наши работы</h1>
-        <div class="row">
+        <h1 class="text-center pt-5 pb-5">Наши работы</h1>
+        <div class="row pb-5">
 
             <div class="col-md-4 col-lg-4 col-sm-12">
 
@@ -201,6 +202,13 @@
         </form>
     </div>
 </div>
+<footer class="footer">
+    <div class="row d-flex justify-content-end">
+        <div class="col-6 ">
+            <h3 class="pt-10 pb-10"> Наш телефон: +380673860000 </h3>
+        </div>
+    </div>
+</footer>
 
 </body>
 </html>
